@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 932px) {
     body {
         padding: 0 10px; /* Adiciona espaçamento interno */
         font-size: 14px; /* Ajusta o tamanho do texto */
@@ -9,7 +9,7 @@
     div{
         display: flex;
         flex-direction: column;
-        
+
     }
 
     header {
