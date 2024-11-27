@@ -23,6 +23,9 @@
     header h1 {
         font-size: 1.9em; /* Ajusta o tamanho do título */
     }
+    h2{
+        font-size: 1.9em;
+    }
 
     header p {
         font-size: 1em; /* Reduz o subtítulo */
@@ -30,27 +33,30 @@
 
     .products img {
         width: 100%; /* Ajusta imagens para preencher a largura */
-        margin: 10px 0; /* Espaçamento entre imagens */
+        margin: 10px 0;
+        margin-bottom: 10px; /* Espaçamento entre imagens */
     }
 
     .price, .cta, .contact {
         padding: 10px;
     }
-    .price p, .cta p, .contact p {
+    .price p, .cta p{
         font-size: 1.1em; /* Ajusta o tamanho do texto */
+    }
+    .contact p{
+        margin-top: 20px;
     }
 
     iframe#image {
-        width: 100vw; /* Ajusta a largura do iframe */
-        left: 30px;
-        top: 10px;
+        width: 90%;
+        height: 180%; /* Ajusta a largura do iframe */
+        left: 80px;
+        margin-bottom: 50px;
     }
-
-    .cta iframe{
-        width: 100%;
-        height: 300px;
+    #iframepic{
+        width: 60vw;
+        height: 110vh;
     }
-
     .contact iframe {
         width: 100%; /* Mapa ocupa toda a largura */
         height: 300px; /* Altura ajustada */
