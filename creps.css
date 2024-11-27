@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+
+@media screen and (max-width: 768px) {
+    .products img {
+        width: 80%;
+    }
+
+    iframe#image {
+        width: 100vw;
+        left: 0;
+    }
+
+    .cta, .contact iframe {
+        width: 100%;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+}
+
+
+@media screen and (max-width: 430px) {
+    body {
+        padding: 0 10px; /* Adiciona espaçamento interno */
+        font-size: 14px; /* Ajusta o tamanho do texto */
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 2em; /* Ajusta o tamanho do título */
+    }
+
+    header p {
+        font-size: 1em; /* Reduz o subtítulo */
+    }
+
+    .products img {
+        width: 100%; /* Ajusta imagens para preencher a largura */
+        margin: 10px 0; /* Espaçamento entre imagens */
+    }
+
+    .price, .cta, .contact {
+        padding: 15px;
+    }
+
+    .price p, .cta p, .contact p {
+        font-size: 1.2em; /* Ajusta o tamanho do texto */
+    }
+
+    iframe#image {
+        width: 100%; /* Ajusta a largura do iframe */
+        left: 0;
+        top: 0;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .contact iframe {
+        width: 100%; /* Mapa ocupa toda a largura */
+        height: 300px; /* Altura ajustada */
+    }
+
+    footer {
+        font-size: 12px; /* Texto menor no rodapé */
+        padding: 10px;
+    }
+}
