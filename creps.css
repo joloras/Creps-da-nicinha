@@ -41,11 +41,9 @@
     }
 
     iframe#image {
-        width: 100%; /* Ajusta a largura do iframe */
-        left: 10px;
+        width: 100vw; /* Ajusta a largura do iframe */
+        left: 30px;
         top: 10px;
-        height: auto;
-        margin-bottom: 10px;
     }
 
     .cta iframe{
