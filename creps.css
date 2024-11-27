@@ -53,3 +53,30 @@
         padding: 10px;
     }
 }
+
+
+
+.marquee{
+    overflow: hidden;
+    white-space: nowrap;
+    animation: marquee 5s linear infinite;
+}
+
+@keyframes marquee {
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(-100%);
+    }   
+    
+    
+a{
+    color:#fffb00;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+}
