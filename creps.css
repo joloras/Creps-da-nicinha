@@ -8,7 +8,8 @@
     }
     div{
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
+        
     }
 
     header {
@@ -41,8 +42,8 @@
 
     iframe#image {
         width: 100%; /* Ajusta a largura do iframe */
-        left: 0;
-        top: 0;
+        left: 10px;
+        top: 10px;
         height: auto;
         margin-bottom: 10px;
     }
