@@ -15,6 +15,10 @@
         padding: 10px;
     }
 
+    div.marquee{
+        margin-left:1px;
+    }
+
     header h1 {
         font-size: 1.9em; /* Ajusta o tamanho do título */
     }
