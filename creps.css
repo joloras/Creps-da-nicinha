@@ -69,8 +69,8 @@
     #iframepic{
         display: flex;
         align-self: center;
-        width:50vw;
-        height: 80vh;
+        width:100vw;
+        height: 100vh;
     }
     .contact iframe {
         width: 95%; /* Mapa ocupa toda a largura */
