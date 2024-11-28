@@ -3,7 +3,6 @@
 @media screen and (max-width: 940px) {
     body {
         padding: 0; /* Adiciona espaçamento interno */
-        font-size: 1rem; /* Ajusta o tamanho do texto */
     }
     div{
         display: flex;
@@ -30,7 +29,7 @@
     }
 
     header p {
-        font-size: 0.8em; /* Reduz o subtítulo */
+        font-size: 0.7em; /* Reduz o subtítulo */
     }
     div.expose{
         display: flex;
@@ -51,7 +50,7 @@
     }
     .cta p{
         margin-bottom: 5px;
-        font-size: 0.8em; /* Ajusta o tamanho do texto */
+        font-size: 0.7em; /* Ajusta o tamanho do texto */
     }
     .contact p{
         font-size: 0.7em;
