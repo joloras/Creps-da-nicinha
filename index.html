@@ -9,6 +9,10 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
     
+        *{
+            margin: 0 auto;
+            padding: 0;
+        }
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -18,6 +22,8 @@
         }
 
         header {
+            position: sticky;
+            top: 0.5px;
             background-color: #f3961a;
             text-align: center;
             padding: 20px;
@@ -25,11 +31,11 @@
         }
 
         h1 {
-            font-size: 3em;
+            font-size: 1.8em;
             margin: 0;
-            font-family: "Bubblegum Sans", sans-serif;
+            font-family: "Inter", sans-serif;
             font-weight: 600;
-
+            color: #f9d36f;
         }
 
         header p {
@@ -43,22 +49,27 @@
             letter-spacing: 2px;
             font-weight: 200;
             color:#be5006b0;
-            background-color: rgba(212, 109, 13, 0.315);
-            display: inline;
+            padding: 10px;
+            display: inline-flex;
             padding: 4px;
             border-radius: 5px;
             box-shadow: 5px 3px 5px #662c0b;
+            margin-bottom: 10px;
         }
-
+        div.expose{
+            display: flex;
+            flex-direction: column;
+            align-items: center;   
+        }
+        
         .products {
-            text-align: center;
-            padding: 20px;
+                text-align: center;
+                padding: 20px;
+                display: block  ;
         }
-        div{
-            margin-top: 15px;
-        }
-
+        
         .products img {
+            margin-top: 40px;
             width: 30%;
             margin: 10px;
             border-radius: 10px;
@@ -70,10 +81,11 @@
         }
 
         .price {
+            border-radius: 20px;
             background-color: #e0761a;
             color: #fff;
             text-align: center;
-            padding: 20px;
+            padding: 10px;
             font-size: 1.5em;
             margin: 20px 0;
         }
@@ -91,12 +103,14 @@
         }
 
         .contact {
-            background-color: #fff;
+            display: block;
+            background-color: #f9d36f;
             color: #662c0b;
             padding: 2px;
             text-align: center;
             line-height: 1.1;
             margin-bottom: 0px;
+            align-items: center;
         }
 
         footer {
@@ -104,14 +118,6 @@
             color: #fff;
             text-align: center;
             padding: 10px;
-        }
-
-
-
-        .marquee{
-            overflow: hidden;
-            white-space: nowrap;
-            animation: marquee 5s linear infinite;
         }
 
         @keyframes marquee {
@@ -145,10 +151,20 @@
         iframe#image{
             position: relative;
             top: 30px;
-            left: 500px;
-            width: 200vw;
-            height: 90vh;
-            margin-bottom: 20px;
+            left: 5%;
+            width: 60vw;
+            height: 60vh;
+            margin-bottom: 30px;
+            border-radius: 20px;
+        }
+
+        marquee{
+            font-size: medium;
+            padding: 8px;
+            display: inline-flex;
+            width: auto;
+            border: solid 3px #662c0b;
+            border-radius: 20px;            
         }
 
     </style>
@@ -156,23 +172,25 @@
 <body>
 
 <header>
-    <div class="marquee" style= " display: flex; width: 350px; border-radius: 20px; border: solid #662c0bdc;">
-        <h1>Creps da Nicinha</h1>
-    </div>
+    
+        <marquee behavior="#" direction="left">
+            <h1>Creps da Nicinha</h1>
+        </marquee>
+
     <p>Sabor e qualidade na sua mesa!</p>
 </header>
 
 <section class="products">
     <h2>Nossos Produtos</h2>
-    <div>
-        <img src="imagens/creps4.jpg" alt="Creps4">
-        <img src="imagens/crep2.jpg" alt="Creps2">
-        <img src="imagens/creps3.jpg" alt="Creps3">
+    <div class="expose">
+        <img src="imagens/creps4.jpg"class="crep1"  alt="Creps4">
+        <img src="imagens/creps3.jpg"class="crep1"  alt="Creps3">
+        <img src="imagens/crep2.jpg" class="crep1" alt="Creps2">
     </div>
 </section>
 
 <section class="price">
-        <p>Por apenas Kz 499,90 - 20 unidades<br>Frete com taxa adicional</p>
+        <p>Por apenas Kz 400 - 20 unidades<br>Frete com taxa adicional</p>
 </section>
 
 <section class="cta">
@@ -184,8 +202,7 @@
 <section class="contact">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d361.97885101632295!2d13.406672980214275!3d-9.007243040745248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a5203a039703349%3A0x6ae3c6ea4bb341ea!2sXCV4%2B3PM%2C%20ZangoIII!5e0!3m2!1spt-PT!2sao!4v1732672756194!5m2!1spt-PT!2sao" width="700" height="400" style=" margin-top:2%; margin-bottom: 0; border: solid #662c0bd0; border-radius: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     <p>📍 Estamos localizados no:<br><strong>Zango 1, Rua Da Máxi, atrás da Igreja Universal</strong></p>
-    <iframe src="" frameborder="0"></iframe>
-</section>
+</section>e
 
 <footer>
     <p>&copy; 2024 Creps da Nicinha. Todos os direitos reservados.</p>
