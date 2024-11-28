@@ -1,8 +1,14 @@
 @charset "UTF-8";
 
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
 @media screen and (max-width: 940px) {
     body {
-        padding: 0; /* Adiciona espaçamento interno */
+        padding: 0; 
+        display: inline-block;
+        flex-direction: column;
     }
     div{
         display: flex;
@@ -29,7 +35,7 @@
     }
 
     header p {
-        font-size: 0.7rem; /* Reduz o subtítulo */
+        font-size: 0.8rem; /* Reduz o subtítulo */
     }
     div.expose{
         display: flex;
@@ -37,8 +43,8 @@
     }
 
     img.crep1{
-        width: 80%;
-        height: 90%;
+        width: 75%;
+        height: 85%;
         border-radius: 10px;
         transition: transform 0.3s;
         margin-top: 10px;
@@ -50,10 +56,10 @@
     }
     .cta p{
         margin-bottom: 5px;
-        font-size: 0.6rem; /* Ajusta o tamanho do texto */
+        font-size: 0.8rem; /* Ajusta o tamanho do texto */
     }
     .contact p{
-        font-size: 0.7rem;
+        font-size: 0.8rem;
         margin-top: 10px;
     }
 
