@@ -10,7 +10,7 @@
         display: inline-block;
         flex-direction: column;
     }
-    div{
+    div.expose{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -46,7 +46,7 @@
         width: 75%;
         height: 85%;
         border-radius: 10px;
-        transition: transform 0.3s;
+        transition:  0.3s;
         margin-top: 10px;
     }
 
@@ -94,17 +94,9 @@
     display: flex;
     overflow: hidden;
     white-space: nowrap;
-    animation: marquee 4s linear infinite;
+    animation: 4s linear infinite;
 }
 
-@keyframes marquee {
-    from{
-        transform: translateX(100%);
-    }
-    to{
-        transform: translateX(-100%);
-    }   
-}
 a{
     color:#fffb00;
 }
