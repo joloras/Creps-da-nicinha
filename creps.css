@@ -1,72 +1,85 @@
 @charset "UTF-8";
 
-
 @media screen and (max-width: 940px) {
     body {
         padding: 0; /* Adiciona espaçamento interno */
-        font-size: 14px; /* Ajusta o tamanho do texto */
+        font-size: 1rem; /* Ajusta o tamanho do texto */
     }
     div{
-        display: inline-flex;
+        display: flex;
         flex-direction: column;
         align-items: center;
     }
 
     header {
-        padding: 15px;
+        padding: 10px;
     }
 
-    div.marquee{
+    marquee{
+        display: block;
+        margin-top: 8px;
         margin-left:5px;
     }
 
     header h1 {
-        font-size: 1.9em; /* Ajusta o tamanho do título */
+        font-size: 1em; /* Ajusta o tamanho do título */
     }
     h2{
-        font-size: 1.9em;
+        display: block;
+        font-size: 1.5em;
     }
 
     header p {
-        font-size: 1em; /* Reduz o subtítulo */
+        font-size: 0.8em; /* Reduz o subtítulo */
+    }
+    div.expose{
+        display: flex;
+        flex-direction: column;
     }
 
-    .crep1 {
-        width: 100vw;
-        margin: 0px;
-        margin-bottom: 10px; /* Espaçamento entre imagens */
+    img.crep1{
+        width: 80%;
+        height: 90%;
+        border-radius: 10px;
+        transition: transform 0.3s;
+        margin-top: 10px;
     }
 
-    .price, .cta, .contact {
-        padding: 10px;
+ 
+    .price p{
+        font-size: 0.9rem;
     }
-    .price p, .cta p{
-        font-size: 1.1em; /* Ajusta o tamanho do texto */
+    .cta p{
+        margin-bottom: 5px;
+        font-size: 0.8em; /* Ajusta o tamanho do texto */
     }
     .contact p{
-        margin-top: 20px;
+        font-size: 0.7rem;
+        margin-top: 10px;
     }
 
     .cta{
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding: 0;
+        margin: 0 auto;
     }
 
     iframe#image {
         display: flex;
-        width: 100%;
-        height: 40vh; 
-        left: 110px;
-        margin-bottom: 50px;
+        width: 180%;
+        height: 100vh; 
     }
     #iframepic{
-        width: 60vw;
-        height: 180vh;
+        display: flex;
+        align-self: center;
+        width:50vw;
+        height: 80vh;
     }
     .contact iframe {
-        width: 100%; /* Mapa ocupa toda a largura */
-        height: 300px; /* Altura ajustada */
+        width: 95%; /* Mapa ocupa toda a largura */
+        height: 200px; /* Altura ajustada */
     }
 
     footer {

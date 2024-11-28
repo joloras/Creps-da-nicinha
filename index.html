@@ -22,7 +22,6 @@
         }
 
         header {
-            position: sticky;
             top: 0.5px;
             background-color: #f3961a;
             text-align: center;
@@ -45,6 +44,7 @@
             font-weight: 300;
         }
         h2{
+            margin-top: 10px;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             letter-spacing: 2px;
             font-weight: 200;
@@ -58,10 +58,16 @@
         }
         div.expose{
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             align-items: center;   
         }
-        
+        img.crep1{
+            width: 25%;
+            height: 25%;
+            border-radius: 10px;
+            transition: transform 0.3s;
+            margin-top: 10px;
+        }
         .products {
                 text-align: center;
                 padding: 20px;
@@ -69,14 +75,11 @@
         }
         
         .products img {
-            margin-top: 40px;
             width: 30%;
             margin: 10px;
-            border-radius: 10px;
-            transition: transform 0.3s;
         }
 
-        .products img:hover {
+        .expose img:hover {
             transform: scale(1.05);
         }
 
@@ -182,27 +185,27 @@
 
 <section class="products">
     <h2>Nossos Produtos</h2>
+</section>
     <div class="expose">
         <img src="imagens/creps4.jpg"class="crep1"  alt="Creps4">
         <img src="imagens/creps3.jpg"class="crep1"  alt="Creps3">
         <img src="imagens/crep2.jpg" class="crep1" alt="Creps2">
     </div>
-</section>
 
 <section class="price">
-        <p>Por apenas Kz 400 - 20 unidades<br>Frete com taxa adicional</p>
+        <p>Por apenas Kz 400<br>Frete com taxa adicional</p>
 </section>
 
 <section class="cta">
-    <iframe src="imagemcrep.html" frameborder="0" name="image" id="image" margin-bottom="10px"></iframe>
-    <p>📱 Faça seu pedido agora pelo WhatsApp:</p>
+    <iframe src="imagemcrep.html" frameborder="0" name="image" id="image"></iframe>
+    <p>📱 Faça o seu pedido agora pelo WhatsApp:</p>
     <p><a href="#">+244 940 677 339</a> | <a href="#">923 634 984</a></p>
 </section>
 
 <section class="contact">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d361.97885101632295!2d13.406672980214275!3d-9.007243040745248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a5203a039703349%3A0x6ae3c6ea4bb341ea!2sXCV4%2B3PM%2C%20ZangoIII!5e0!3m2!1spt-PT!2sao!4v1732672756194!5m2!1spt-PT!2sao" width="700" height="400" style=" margin-top:2%; margin-bottom: 0; border: solid #662c0bd0; border-radius: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     <p>📍 Estamos localizados no:<br><strong>Zango 1, Rua Da Máxi, atrás da Igreja Universal</strong></p>
-</section>e
+</section>
 
 <footer>
     <p>&copy; 2024 Creps da Nicinha. Todos os direitos reservados.</p>
