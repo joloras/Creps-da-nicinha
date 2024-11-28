@@ -66,11 +66,7 @@
         margin: 0 auto;
     }
 
-    iframe#image {
-        display: flex;
-        width: 180%;
-        height: 100vh; 
-    }
+  
     #iframepic{
         display: flex;
         align-self: center;
