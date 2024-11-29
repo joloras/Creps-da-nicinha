@@ -7,7 +7,6 @@
 @media screen and (max-width: 940px) {
     body {
         padding: 0; 
-        display: inline-block;
         flex-direction: column;
     }
     div.expose{
@@ -35,7 +34,7 @@
     }
 
     header p {
-        font-size: 0.8rem; /* Reduz o subtítulo */
+        font-size: 0.9rem; /* Reduz o subtítulo */
     }
     div.expose{
         display: flex;
@@ -52,7 +51,7 @@
 
  
     .price p{
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
     .cta p{
         margin-bottom: 5px;
