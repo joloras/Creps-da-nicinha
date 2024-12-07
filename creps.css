@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+@media screen and (max-width: 940px) {
+    body {
+        padding: 0; 
+    }
+    div.expose{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    marquee{
+        display: block;
+        margin-top: 8px;
+        margin-left:5px;
+    }
+
+    header h1 {
+        font-size: 1em; /* Ajusta o tamanho do título */
+    }
+    h2{
+        display: block;
+        font-size: 1.5em;
+    }
+
+    header p {
+        font-size: 0.9rem; /* Reduz o subtítulo */
+    }
+    div.expose{
+        display: flex;
+        flex-direction: column;
+    }
+
+    img.crep1{
+        width: 75%;
+        height: 85%;
+        border-radius: 10px;
+        transition:  0.3s;
+        margin-top: 10px;
+    }
+
+ 
+    .price p{
+        font-size: 0.8rem;
+    }
+    .cta p{
+        margin-bottom: 5px;
+        font-size: 0.8rem; /* Ajusta o tamanho do texto */
+    }
+    .contact p{
+        font-size: 0.8rem;
+        margin-top: 10px;
+    }
+
+    .cta{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+  
+    #iframepic{
+        display: flex;
+        align-self: center;
+        width:100vw;
+        height: 100vh;
+    }
+    .contact iframe {
+        width: 95%; /* Mapa ocupa toda a largura */
+        height: 200px; /* Altura ajustada */
+    }
+
+    footer {
+        font-size: 12px; /* Texto menor no rodapé */
+        padding: 10px;
+    }
+    
+    
+
+.marquee{
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: 4s linear infinite;
+}
+
+a{
+    color:#fffb00;
+}
+
+a :hover{
+    text-decoration: none;
+    color: white;
+    }
+    
+    
+}
